@@ -1,0 +1,272 @@
+.column{
+    position: relative;
+    width: 310px;
+    float: left;
+    margin:30px;
+    margin: 30px;
+    background: rgb(240,240,240);
+    border-radius: 3px;
+    font-family: Calibri;
+    font-size: 16px;
+    /*opacity: 0.5;*/
+}
+
+.column:hover{
+    opacity: 1;
+}
+
+.startElement{
+    width: 300px;
+    color: black;
+    border-radius: 3px;
+    padding: 7px;
+    opacity: 0.5;
+}
+.startElement:hover{
+    background: rgb(200,200,200);
+}
+
+.initialLink{
+    border: unset;
+    border-radius: 3px;
+    display: block;
+    margin: 3px;
+    width: 290px;
+    font-size: 14px;
+    padding: 7px;
+    color: black;
+    box-shadow: 0 0 5px 2px #F5F5F5 inset;
+}
+.initialLink:focus{
+    outline: none;
+}
+
+.closeLink{
+    margin-top: 3px;
+    width: 15px;
+    height: 15px;
+    font-size: 14px;
+    padding: 7px;
+    border-radius: 3px;
+    display: inline-block;
+    background: rgb(240,240,240);
+}
+.closeLink:hover{
+    text-decoration: none;
+    background: rgb(200,200,200);
+}
+
+.finalLink{
+    font-size: 14px;
+    padding: 7px;
+    margin-left: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 61px;
+    width: 200px;
+    border: unset;
+    background: rgb(240,240,240);
+}
+.finalLink:focus{
+    background: white;
+    border-radius: 3px;
+    border-color: blue;
+}
+
+.saveList{
+    border: unset;
+    display: inline-block;
+    background: #5aac44;
+    border-radius: 3px;
+    padding: 7px;
+    width: 80px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+.saveList:hover{
+    background: #519839;
+}
+
+.close{
+    padding: 3px;
+    display: inline-block;
+    color: 	rgb(190,190,190);
+}
+.close:hover{
+    text-decoration: none;
+    background: unset;
+    border: unset;
+    color: black;
+}
+
+.inputCard{
+    border: unset;
+    border-radius: 3px;
+    display: block;
+    margin: 10px;
+    width: 276px;
+    font-size: 14px;
+    padding: 7px;
+    height: 50px;
+    color: black;
+    box-shadow: 0 1px rgb(210,210,210);
+    outline: none;
+}
+.inputCard:hover{
+    outline: none;
+}
+
+.inputSavedCard{
+    border: unset;
+    border-radius: 3px;
+    display: block;
+    margin: 10px;
+    width: 276px;
+    font-size: 14px;
+    padding: 7px;
+    color: black;
+    box-shadow: 0 1px rgb(210,210,210);
+    outline: none;
+}
+.inputSavedCard:hover{
+    background: rgb(220,220,220);
+    outline: none;
+}
+
+
+.saveCardButton{
+    border: unset;
+    display: inline-block;
+    background: #5aac44;
+    border-radius: 3px;
+    padding: 7px;
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.saveCardButton:hover{
+    background: #519839;
+}
+
+a {
+    position: relative;
+    display: block;
+    color: #2C3E50;
+    text-size-adjust: 100%;
+    padding: 10px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(60, 60, 60);
+    background: rgb(200, 200, 200);
+}
+
+body{
+    background: lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.droppableElements {
+    position: relative;
+    background: rgb(180, 180, 180);
+    border-radius: 3px;
+    border: medium;
+    border-color: gray;
+    width: 300px;
+    float: left;
+    margin: auto;
+}
+
+.draggableElements {
+
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    background: rgb(240, 240, 240);
+    border-radius: 5px;
+    box-shadow: 0 1px rgb(120, 120, 120);
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.draggableElements:hover{
+    background: rgb(220, 220, 220);
+}
+
+.cols{
+    position: relative;
+    width: 310px;
+    float: left;
+    margin:30px;
+}
+
+.rotate{
+    transform: rotate(5deg);
+}
+
+.shadow{
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    background: rgb(120, 120, 120);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 240px;
+    height: 50px;
+    margin: 10px;
+}
+
+.el:hover{
+    background: rgb(210, 210, 210);
+}
+h2 {
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-family: Calibri;
+}
+
+
+#data{
+    width: 300px;
+    height: 300px;
+    background: greenyellow;
+    position: relative;
+    margin-left: 750px;
+
+}
